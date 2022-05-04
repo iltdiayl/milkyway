@@ -8,7 +8,7 @@ import pyautogui as pg
 
 t = time.strftime("%X")
 beta = 2
-bot = telebot.TeleBot("5314607255:AAHvKC9IUCrvPN9pN3iOvLznZPIVaSsRdNg")
+bot = telebot.TeleBot("token")
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
 
